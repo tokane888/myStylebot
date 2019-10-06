@@ -1,0 +1,616 @@
+{
+  "*": {
+      "_enabled": false,
+      "_rules": {
+          "#post_image": {
+              "display": "none"
+          },
+          "#seesaa-bnr": {
+              "display": "none"
+          },
+          "#the-content p:first-of-type img[src*=\"wp-content/uploads/\"]": {
+              "display": "none"
+          },
+          ".article p:first-of-type img[src*=\"wp-content/uploads/\"]": {
+              "display": "none "
+          },
+          ".attachment-post-thumbnail": {
+              "display": "none"
+          },
+          ".column-eyecatch": {
+              "display": "none"
+          },
+          ".content p:first-of-type img[src*=\"wp-content/uploads/\"]": {
+              "display": "none "
+          },
+          ".entry p:first-of-type img[src*=\"wp-content/uploads/\"]": {
+              "display": "none "
+          },
+          ".entry-content p": {
+              "margin": "0"
+          },
+          ".entry-content p:first-of-type img[src*=\"wp-content/uploads/\"]": {
+              "display": "none "
+          },
+          ".entry-post-thumbnail": {
+              "display": "none"
+          },
+          ".eye-catch": {
+              "display": "none"
+          },
+          ".eyecatch": {
+              "display": "none"
+          },
+          ".eyecatch-under-title": {
+              "display": "none"
+          },
+          ".featured-media": {
+              "display": "none"
+          },
+          ".gettyimage-img": {
+              "display": "none "
+          },
+          ".l-main div:first-of-type img[src*=\"wp-content/uploads/\"]": {
+              "display": "none"
+          },
+          ".post p:first-of-type img[src*=\"wp-content/uploads/\"]": {
+              "display": "none"
+          },
+          ".post-featured-image": {
+              "display": "none"
+          },
+          ".post-thumbnail": {
+              "display": "none"
+          },
+          ".post_content p:first-of-type img[src*=\"wp-content/uploads/\"]": {
+              "display": "none"
+          },
+          ".post_image": {
+              "display": "none"
+          },
+          ".single_featured_image": {
+              "display": "none"
+          },
+          ".socialList": {
+              "display": "none"
+          },
+          ".“post-thumbnail”": {
+              "display": "none"
+          },
+          "comment0": {
+              "comment": "/******** WordPress対策 http://www.lab-ssk.com/css-code-to-hide-unpleasant-wordpress-eye-catching-images-with-stylish ********/"
+          },
+          "comment1": {
+              "comment": "/*記事の中で最初に現れた画像を消す*/"
+          },
+          "comment10": {
+              "comment": "/*タイトル直下のアイキャッチ画像を消す*/"
+          },
+          "comment11": {
+              "comment": "/*gettyイメージを消す*/"
+          },
+          "comment2": {
+              "comment": "/******** 以下自分で追加 ********/"
+          },
+          "comment3": {
+              "comment": "/*img {\n    display: none;\n}*/"
+          },
+          "comment4": {
+              "comment": "/* はてなの広すぎ行間対策 */"
+          },
+          "comment5": {
+              "comment": "/* 180日以上更新なし広告 */"
+          },
+          "comment6": {
+              "comment": "/*たまにpではなくdivタグで囲まれているケースも有り*/"
+          },
+          "comment7": {
+              "comment": "/*製作者独自のcssを上書きして消す*/"
+          },
+          "comment8": {
+              "comment": "/*わざと？クラスが\"\"でくくられている*/"
+          },
+          "comment9": {
+              "comment": "/*headerタグに埋め込まれたうざい画像を消す*/"
+          }
+      }
+  },
+  "*.blogspot.com": {
+      "_enabled": true,
+      "_rules": {
+          "header": {
+              "display": "none"
+          }
+      }
+  },
+  "*.fc2.com": {
+      "_enabled": true,
+      "_rules": {
+          "#header": {
+              "display": "none"
+          }
+      }
+  },
+  "*.hateblo.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#blog-title": {
+              "display": "none"
+          },
+          ".sleeping-ads": {
+              "display": "none"
+          }
+      }
+  },
+  "*.hatenablog.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#blog-title,#box2, #logly-lift-widget, .sleeping-ads, .sleeping-ads .entry-inner, #entry-footer-secondary-modules, #entryGatchagachaSpan": {
+              "display": "none"
+          }
+      }
+  },
+  "biz-shinri.com": {
+      "_enabled": true,
+      "_rules": {
+          ".footer-cta, .side-banner, .lazy-loaded": {
+              "display": "none"
+          }
+      }
+  },
+  "blog.hiros-dot.net": {
+      "_enabled": true,
+      "_rules": {
+          ".custom-header": {
+              "margin": "0"
+          },
+          ".navigation-top, #secondary": {
+              "display": "none"
+          },
+          ".site-branding, #content": {
+              "padding": "0"
+          }
+      }
+  },
+  "blog.okazuki.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#box2": {
+              "display": "none"
+          },
+          "#main": {
+              "width": "100%"
+          }
+      }
+  },
+  "chiebukuro.yahoo.co.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#sub": {
+              "display": "none"
+          }
+      }
+  },
+  "coelacanth.jp.net": {
+      "_enabled": true,
+      "_rules": {
+          "#header": {
+              "min-height": "90px"
+          },
+          "#header img": {
+              "display": "none"
+          },
+          "#sidebar": {
+              "display": "none"
+          }
+      }
+  },
+  "d.hatena.ne.jp": {
+      "_enabled": true,
+      "_rules": {
+          "html body h1": {
+              "display": "none"
+          }
+      }
+  },
+  "detail.chiebukuro.yahoo.co.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#sub": {
+              "display": "none"
+          }
+      }
+  },
+  "dev.classmethod.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#toc-": {
+              "margin-top": "0",
+              "padding": "0 0 0 16px"
+          },
+          ".alert": {
+              "margin-top": "0",
+              "padding": "0"
+          },
+          ".single_article_header": {
+              "min-height": "0",
+              "padding": "0"
+          },
+          ".single_article_share_buttons, .single_article_aside, #contentsNavList, .single_article_visual": {
+              "display": "none"
+          },
+          ".single_article_title": {
+              "padding": "0"
+          }
+      }
+  },
+  "developercommunity.visualstudio.com": {
+      "_enabled": true,
+      "_rules": {
+          "#uhfCookieAlert": {
+              "display": "none"
+          }
+      }
+  },
+  "dotnsf.blog.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#container": {
+              "padding": "0px"
+          },
+          "body.layout-2col #main": {
+              "width": "auto"
+          }
+      }
+  },
+  "eng-entrance.com": {
+      "_enabled": true,
+      "_rules": {
+          ".post-content": {
+              "padding-top": "0"
+          },
+          ".post-header-meta, .post-thumbnail, #side, .left-bottom-float": {
+              "display": "none"
+          }
+      }
+  },
+  "fa-works.com": {
+      "_enabled": true,
+      "_rules": {
+          "#side": {
+              "display": "none"
+          }
+      }
+  },
+  "ferret-plus.com": {
+      "_enabled": true,
+      "_rules": {
+          ".footer-banner": {
+              "display": "none"
+          }
+      }
+  },
+  "forest.watch.impress.co.jp": {
+      "_enabled": true,
+      "_rules": {
+          ".ad": {
+              "display": "none"
+          }
+      }
+  },
+  "grabacr.net": {
+      "_enabled": true,
+      "_rules": {
+          "#text-5": {
+              "display": "none"
+          }
+      }
+  },
+  "headlines.yahoo.co.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#sub": {
+              "display": "none"
+          }
+      }
+  },
+  "hogefugatmp.hatenablog.com": {
+      "_enabled": true,
+      "_rules": {
+          "#blog-title": {
+              "display": "none"
+          }
+      }
+  },
+  "itnext.io": {
+      "_enabled": true,
+      "_rules": {
+          ".js-stickyFooter, .metabar": {
+              "display": "none"
+          }
+      }
+  },
+  "itpro.nikkeibp.co.jp": {
+      "_enabled": true,
+      "_rules": {
+          ".list_G, .tools": {
+              "display": "none"
+          }
+      }
+  },
+  "liginc.co.jp": {
+      "_enabled": true,
+      "_rules": {
+          "div.l-content-sub-inner.is-content-sub-fixed": {
+              "display": "none"
+          }
+      }
+  },
+  "machicon-ceo.info": {
+      "_enabled": true,
+      "_rules": {
+          ".entry-content p": {
+              "margin": "0"
+          }
+      }
+  },
+  "macruby.info": {
+      "_enabled": true,
+      "_rules": {
+          "#secondary": {
+              "display": "none"
+          }
+      }
+  },
+  "mail.google.com": {
+      "_enabled": true,
+      "_rules": {
+          ".aKB": {
+              "display": "none"
+          }
+      }
+  },
+  "majikichi.com": {
+      "_enabled": true,
+      "_rules": {
+          "#right_menu, #sub .column-inner-2>.plugin-memo, #left_menu, .main": {
+              "display": "none"
+          }
+      }
+  },
+  "medium.com": {
+      "_enabled": true,
+      "_rules": {
+          ".ar.as.dt.mr.ms.mt.mu.mv.mw.m.n.mx.o.p.my": {
+              "display": "none"
+          },
+          "iframe[style=\"border: none; position: fixed; z-index: 9999; top: 0px; right: 0px; width: 400px; height: 267px;\"]": {
+              "display": "none"
+          }
+      }
+  },
+  "memobog.azurewebsites.net": {
+      "_enabled": true,
+      "_rules": {
+          "#side": {
+              "display": "none"
+          },
+          "main": {
+              "margin": "0"
+          }
+      }
+  },
+  "narisoku.blog.jp": {
+      "_enabled": true,
+      "_rules": {
+          ".left-container, .right-container, .ninja-recommend-block, div[id^=\"zucksad\"], img[src^=\"http://img.gsspat.jp\"], .rss-blogroll": {
+              "display": "none"
+          }
+      }
+  },
+  "news.biglobe.ne.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#push-container": {
+              "display": "none"
+          }
+      }
+  },
+  "news.careerconnection.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#secondary": {
+              "display": "none"
+          }
+      }
+  },
+  "rocketnews24.com": {
+      "_enabled": true,
+      "_rules": {
+          "#related-posts h3": {
+              "display": "none"
+          },
+          "#related-posts ul": {
+              "display": "none"
+          },
+          "#sub-content ul": {
+              "display": "none"
+          }
+      }
+  },
+  "serverfault.com": {
+      "_enabled": true,
+      "_rules": {
+          "#js-gdpr-consent-banner": {
+              "display": "none"
+          }
+      }
+  },
+  "stackoverflow.com": {
+      "_enabled": true,
+      "_rules": {
+          "#js-gdpr-consent-banner, #clc-tlb": {
+              "display": "none"
+          }
+      }
+  },
+  "tabi-labo.com": {
+      "_enabled": true,
+      "_rules": {
+          ".main-image, img": {
+              "display": "none"
+          }
+      }
+  },
+  "teratail.com": {
+      "_enabled": true,
+      "_rules": {
+          "#l-topAddContents": {
+              "display": "none"
+          }
+      }
+  },
+  "togetter.com": {
+      "_enabled": true,
+      "_rules": {
+          "div.related_list_box": {
+              "display": "none"
+          },
+          "div.thumb_list_box": {
+              "display": "none"
+          }
+      }
+  },
+  "toggl.com": {
+      "_enabled": true,
+      "_rules": {
+          "#react-announcement-region": {
+              "display": "none"
+          }
+      }
+  },
+  "toyokeizai.net": {
+      "_enabled": true,
+      "_rules": {
+          "#article-body-inner img:first-child, .caption, #genre-ranking-article, #related-article, #article-series-list": {
+              "display": "none"
+          },
+          "div.article": {
+              "display": "none"
+          }
+      }
+  },
+  "ufcpp.net": {
+      "_enabled": true,
+      "_rules": {
+          "#header, .header-bar, .sidebar": {
+              "display": "none"
+          },
+          "#main, .main-contents": {
+              "margin-left": "0"
+          }
+      }
+  },
+  "uxmilk.jp": {
+      "_enabled": true,
+      "_rules": {
+          "div.share": {
+              "display": "none"
+          }
+      }
+  },
+  "windows.hatenadiary.jp": {
+      "_enabled": true,
+      "_rules": {
+          ".sleeping-ads": {
+              "display": "none",
+              "height": "0px"
+          }
+      }
+  },
+  "www.amazon.co.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#desktop-grid-1-D1, #rhf-shoveler": {
+              "display": "none"
+          }
+      }
+  },
+  "www.atmarkit.co.jp": {
+      "_enabled": true,
+      "_rules": {
+          "#globalHeaderMiddle": {
+              "display": "none"
+          },
+          "#globalHeaderTopInner, #globalHeaderBottom, #masterSocialbuttonTop,#colBoxSideButtons, #g_nav_o, .cmsBoxGreen, #masterSub": {
+              "display": "none"
+          }
+      }
+  },
+  "www.businessinsider.jp": {
+      "_enabled": true,
+      "_rules": {
+          ".lazyloaded": {
+              "display": "none"
+          }
+      }
+  },
+  "www.google.com": {
+      "_enabled": true,
+      "_rules": {
+          ".gLFyf": {
+              "font-size": "20px",
+              "font-weight": "bold"
+          }
+      }
+  },
+  "www.lifehacker.jp": {
+      "_enabled": true,
+      "_rules": {
+          ".lh-postSns, .lh-entryDetail-body .lh-entryDetailInner .lazyloaded, figcaption": {
+              "display": "none"
+          },
+          "div.lh-secondary": {
+              "display": "none"
+          }
+      }
+  },
+  "www.newsweekjapan.jp": {
+      "_enabled": true,
+      "_rules": {
+          "div.sideWrap, #sidePanel": {
+              "display": "none"
+          }
+      }
+  },
+  "www.salesforce.com": {
+      "_enabled": true,
+      "_rules": {
+          ".privacyBarComponent": {
+              "display": "none"
+          }
+      }
+  },
+  "www.sejuku.net": {
+      "_enabled": true,
+      "_rules": {
+          "#sticky_header, .meta-image, .meta-author, .ad-eye-catch-bottom,.entry-meta,.linkcard, h5, blockquote, h3,.p-entry__push, .footer-banner, #header, #sidebar": {
+              "display": "none"
+          },
+          "div[style=\"padding: 10px 10px 10px; margin-bottom: 20px; border: 2px solid #9d9d9b;  margin: auto; margin-left: 8%; margin-right: 8%; text-align: center;\"], img[alt=\"cta_js2\"], [style=\"margin-bottom:7px\"]": {
+              "display": "none"
+          },
+          "p": {
+              "margin-bottom": "0"
+          }
+      }
+  },
+  "www.youtube.com": {
+      "_enabled": true,
+      "_rules": {
+          "#related": {
+              "display": "none"
+          }
+      }
+  }
+}
